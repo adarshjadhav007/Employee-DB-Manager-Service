@@ -33,12 +33,6 @@ public class SalaryController {
 		
 		return repo.findAll();
 	}
-	
-//	@GetMapping("/getsalarydetails/{id}")
-//	public Optional<Salary> getSalaryDetailsById(@PathVariable("id") int id ){
-//		
-//		return null;
-//		//return SalaryService.findByempId(id);
-//	}
+
 	
 }
